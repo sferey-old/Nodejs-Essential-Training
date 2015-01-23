@@ -57,5 +57,16 @@ localhost/flight1
 
 05-3. Управление большими блоками данных - запрос переменных в Routes  
 
+$ node app
+
 localhost/flight/33
 http://localhost/flight/34
+
+
+05-4. Обработка данных через PUT запросы  
+
+
+postman
+
+PUT Запрос на http://localhost/flight/33/arrived
+Добавился элемент http://localhost/flight/33
