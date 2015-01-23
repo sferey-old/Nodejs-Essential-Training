@@ -32,3 +32,15 @@ $ node app.js
 04-3. Реализация шаблонов проектирования
 
 $ node app.js
+
+
+# 05. Работа с фреймворком Express
+
+05-1. Запуск Express приложений
+
+$ sudo npm install -g express@3.4.x
+$ express airline
+$ cd airline && npm install
+$ node app
+
+Почистили созданный проект.
