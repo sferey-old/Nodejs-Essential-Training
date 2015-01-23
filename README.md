@@ -44,3 +44,12 @@ $ cd airline && npm install
 $ node app
 
 Почистили созданный проект.
+
+
+05-2. Обработка GET запросов возвращающих JSON
+
+
+$ node app
+
+localhost/flight1  
+http://localhost/flight2  
