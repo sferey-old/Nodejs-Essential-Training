@@ -15,3 +15,10 @@ $ nvm install 0.8
 $ nvm use 0.10  
 $ nvm alias default 0.10  
 $ node --version
+
+
+# 04. Модули
+
+04. Модули | 04-1. Создание модулей с помощью Getters и Setters
+  
+$ node app.js
