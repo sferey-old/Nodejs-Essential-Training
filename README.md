@@ -52,4 +52,10 @@ $ node app
 $ node app
 
 localhost/flight1  
-http://localhost/flight2  
+\localhost/flight2  
+
+
+05-3. Управление большими блоками данных - запрос переменных в Routes  
+
+localhost/flight/33
+http://localhost/flight/34
