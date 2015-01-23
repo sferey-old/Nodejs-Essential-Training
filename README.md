@@ -1,4 +1,4 @@
-# Nodejs-Essential-Training
+# Nodejs-Essential-Training [![Build Status](https://travis-ci.org/marley-nodejs/Nodejs-Essential-Training.svg?branch=master)](https://travis-ci.org/marley-nodejs/Nodejs-Essential-Training)
 [Lynda.com] Node.js Essential Training
 
 
@@ -19,6 +19,11 @@ $ node --version
 
 # 04. Модули
 
-04. Модули | 04-1. Создание модулей с помощью Getters и Setters
-  
+04-1. Создание модулей с помощью Getters и Setters
+
 $ node app.js
+
+
+04-2. Кэширование модулей и области видимости  
+
+$ node app.js  
