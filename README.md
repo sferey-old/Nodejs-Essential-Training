@@ -114,9 +114,23 @@ $ mocha
 
 $ node server.js
 
-07-2. Создание схемы для коллекций в Mongoose
+07-2. Создание схемы для коллекций в Mongoose | не заработало
+
+
 (PUT http://localhost/flight/33/arrived)  
 (PUT http://localhost/flight/18/arrived)  
 
 
 $ node server.js
+
+
+07-3. Запрос коллекций в MongoDB | не заработало
+
+$ node server.js
+http://localhost/arrivals
+
+
+07-4. Сохранение Express сессий в MongoDB и mongo-connect | не заработало
+
+$ node server.js
+http://localhost/arrivals

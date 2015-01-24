@@ -15,6 +15,8 @@ module.exports = function(flights){
     functions.flight = function(req, res){
         var number = req.param('number');
 
+        req.session.lastNumber = number;
+
         if(typeof flights[number] === 'undefined'){
             res.status(404).json({status: 'error'});
         } else {
@@ -63,6 +65,24 @@ module.exports = function(flights){
 
             res.json(flightData);
     };
+
+    functions.arrivals = function(req, res){
+        FlightSchema.find()
+        .setOptions({sort: 'actualArrive'})
+        .exec(function(err, arrivals){
+            if(err){
+                console.log(err);
+                res.status(500).json({status: 'failure'});
+            } else {
+                res.render('arrivals', {
+                    title: 'Arrivals',
+                    arrivals: arrivals,
+                    lastNumber: req.session.lastNumber
+                });
+            }
+        });
+    };
+
 
 
     return functions;
