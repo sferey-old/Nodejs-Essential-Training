@@ -30,7 +30,7 @@ describe('flights', function(){
 
         supertest(app)
         .put('/flight/18/arrived')
-        .expect(202)
+        .expect(200)
         .end(function(err, res){
             res.status.should.equal(200);
             res.body.status.should.equal('done');

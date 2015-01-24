@@ -1,5 +1,3 @@
-
-
 module.exports = function(flights){
 
     var flight = require('../flight');

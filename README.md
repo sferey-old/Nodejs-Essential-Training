@@ -105,3 +105,11 @@ $ mocha
 06-5. Симуляция HTTP запросов с помощью SuperTest
 
 $ mocha
+
+
+
+# 07. Сессии и базы данных
+
+$ 07-1. Подключение к MongoDB с помощью Mongoose
+
+$ node server.js
