@@ -68,5 +68,10 @@ http://localhost/flight/34
 
 postman
 
-PUT Запрос на http://localhost/flight/33/arrived
+PUT Запрос на http://localhost/flight/33/arrived  
 Добавился элемент http://localhost/flight/33
+
+
+05-5. Поставляемое Middleware для изменения заголовков HTTP
+
+Поменяли заголовок ответа сервера на "Flight Tracker"
