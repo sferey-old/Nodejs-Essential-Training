@@ -97,6 +97,11 @@ http://localhost/list/json
 06-3. Helpers для тестирования данных
 
 
-06-4. Пишем Unit тесты с Mocha
+06-4. Пишем Unit тесты с Mocha | should | supertest
+
+$ mocha
+
+
+06-5. Симуляция HTTP запросов с помощью SuperTest
 
 $ mocha
