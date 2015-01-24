@@ -52,7 +52,7 @@ $ node app
 $ node app
 
 localhost/flight1  
-\localhost/flight2  
+localhost/flight2  
 
 
 05-3. Управление большими блоками данных - запрос переменных в Routes  
@@ -84,3 +84,9 @@ http://localhost/list
 
 05-8. Решение. Вывести все данные в формате JSON  
 http://localhost/list/json
+
+
+
+# 06. Unit тестирование
+  
+(преобразовали проект для тестирования)
