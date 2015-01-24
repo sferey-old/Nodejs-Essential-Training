@@ -134,3 +134,11 @@ http://localhost/arrivals
 
 $ node server.js
 http://localhost/arrivals
+
+
+07-5. Регистрация в Express приложении с использованием Passport  | не заработало
+
+http://localhost/login
+
+admin
+lynda

@@ -10,7 +10,9 @@
     "express": "3.4.8",
     "jade": "*",
     "mongoose": "~3.6.19",
-    "connect-mongo": "~0.3.3"
+    "connect-mongo": "~0.3.3",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6"
   },
   "devDependencies": {
       "mocha": "~1.12.1",

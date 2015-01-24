@@ -2,6 +2,7 @@ module.exports = function(flights, db){
 
     var express = require('express');
     var MongoStore = require('connect-mongo')(express);
+    var passport = require('./auth');
     var routes = require('./routes')(flights);
     var path = require('path');
     var app = express();
@@ -19,6 +20,8 @@ module.exports = function(flights, db){
             mongoose_connection: db
         })
     }));
+    app.use(passport.initialize());
+    app.use(passport.session());
     app.use(express.json());
     app.use(express.urlencoded());
     app.use(express.methodOverride());
@@ -41,6 +44,13 @@ module.exports = function(flights, db){
     app.get('/list', routes.list);
     app.get('/list/json', routes.listjson);
     app.get('/arrivals', routes.arrivals);
+
+    app.get('/login', routes.login);
+    app.post('/login', passport.authenticate('local', {
+        failureRedirect: '/login',
+        successRedirect: '/user'
+    }));
+    app.get('/user', routes.user);
 
     return app;
 };
