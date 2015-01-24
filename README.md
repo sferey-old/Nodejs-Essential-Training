@@ -75,3 +75,12 @@ PUT Запрос на http://localhost/flight/33/arrived
 05-5. Поставляемое Middleware для изменения заголовков HTTP
 
 Поменяли заголовок ответа сервера на "Flight Tracker"
+
+
+05-6. Генерация HTML views в Jade
+
+http://localhost/list
+
+
+05-8. Решение. Вывести все данные в формате JSON  
+http://localhost/list/json
