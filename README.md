@@ -114,7 +114,7 @@ $ mocha
 
 $ node server.js
 
-07-2. Создание схемы для коллекций в Mongoose | не заработало
+07-2. Создание схемы для коллекций в Mongoose
 
 
 (PUT http://localhost/flight/33/arrived)  
@@ -124,21 +124,21 @@ $ node server.js
 $ node server.js
 
 
-07-3. Запрос коллекций в MongoDB | не заработало
+07-3. Запрос коллекций в MongoDB
 
 $ node server.js
 http://localhost/arrivals
 
 
-07-4. Сохранение Express сессий в MongoDB и mongo-connect | не заработало
+07-4. Сохранение Express сессий в MongoDB и mongo-connect
 
 $ node server.js
 http://localhost/arrivals
 
 
-07-5. Регистрация в Express приложении с использованием Passport  | не заработало
+07-5. Регистрация в Express приложении с использованием Passport
 
 http://localhost/login
 
-admin
+admin  
 lynda
